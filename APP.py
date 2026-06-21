@@ -10,8 +10,8 @@ if "catalogo" not in st.session_state:
             "descripcion": "Espada demoniaca creada por el caballero oscuro legendario Sparda, con la capacidad de despertar el poder demoniaco latente.",
             "categoria": "Cuerpo a Cuerpo",
             "precio_orbes_rojos": 99999,
-            "requiere_poderes_demonio": True
             "stock_disponible": 0,
+            "requiere_poderes_demonio": True
         },
         {
             "id_producto": "WPN-EYI-02",
@@ -19,8 +19,8 @@ if "catalogo" not in st.session_state:
             "descripcion": "Pistolas semiautomáticas personalizadas para disparar ráfagas de energía espiritual a alta velocidad, creadas por la Armera legendaria Nell Goldstein",
             "categoria": "Arma de Fuego",
             "precio_orbes_rojos": 99999,
-            "requiere_poderes_demonio": False
             "stock_disponible": 0,
+            "requiere_poderes_demonio": False
         },
         {
             "id_producto": "WPN-ALA-03",
@@ -28,8 +28,8 @@ if "catalogo" not in st.session_state:
             "descripcion": "Espada demoniaca que contiene la voluntad del demonio con el que comparte nombre. Esta posee poderes electricos y le otorga a su portador la capacidad de volar.",
             "categoria": "Cuerpo a Cuerpo",
             "precio_orbes_rojos": 50000,
-            "requiere_poderes_demonio": True
             "stock_disponible": 1,
+            "requiere_poderes_demonio": True
         },
         {
             "id_producto": "WPN-COA-04",
@@ -37,8 +37,8 @@ if "catalogo" not in st.session_state:
             "descripcion": "Escopeta recortada de dos cañones con gran potencia de fuego.",
             "categoria": "Arma de Fuego",
             "precio_orbes_rojos": 35000,
-            "requiere_poderes_demonio": False
             "stock_disponible": 5,
+            "requiere_poderes_demonio": False
         },
         {
             "id_producto": "WPN-IFR-05",
@@ -46,8 +46,8 @@ if "catalogo" not in st.session_state:
             "descripcion": "Guanteletes con poder de las llamas procedentes del mismo Infierno.",
             "categoria": "Cuerpo a Cuerpo",
             "precio_orbes_rojos": 50000,
-            "requiere_poderes_demonio": True
             "stock_disponible": 1,
+            "requiere_poderes_demonio": True
         },
         {
             "id_producto": "WPN-LAG-06",
@@ -55,8 +55,8 @@ if "catalogo" not in st.session_state:
             "descripcion": "Poderoso lanzador de granadas de gran alcance.",
             "categoria": "Arma de Fuego",
             "precio_orbes_rojos": 35000,
-            "requiere_poderes_demonio": True
             "stock_disponible": 1,
+            "requiere_poderes_demonio": True
         },
         {
             "id_producto": "WPN-CER-07",
@@ -64,8 +64,8 @@ if "catalogo" not in st.session_state:
             "descripcion": "Nunchaku de hielo de tres cabezas el cual puede invocar pilares de este elemento.",
             "categoria": "Cuerpo a Cuerpo",
             "precio_orbes_rojos": 50000,
-            "requiere_poderes_demonio": True
             "stock_disponible": 1,
+            "requiere_poderes_demonio": True
         },
     ]
 
