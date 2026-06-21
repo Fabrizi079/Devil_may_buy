@@ -1,4 +1,4 @@
-streamlit as st
+import streamlit as st
 
 # 1. DEFINICIÓN DEL CATÁLOGO (Arreglo de Registros/Diccionarios)
 # Cada elemento en la lista actúa como un "Registro" con sus campos correspondientes.
