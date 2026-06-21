@@ -1,4 +1,4 @@
-import streamlit as st
+streamlit as st
 
 # 1. DEFINICIÓN DEL CATÁLOGO (Arreglo de Registros/Diccionarios)
 # Cada elemento en la lista actúa como un "Registro" con sus campos correspondientes.
@@ -7,36 +7,66 @@ if "catalogo" not in st.session_state:
         {
             "id_producto": "WPN-REB-01",
             "nombre": "Rebellion",
-            "descripcion": "Espada mágica heredada por Dante de su padre Sparda. Excelente balance para combos aéreos.",
-            "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
-            "dano_base": 85,
-            "elemento_magico": "Despertar",
-            "stock_disponible": 1,
-            "requiere_sangre_demonio": True
-        },
-        {
-            "id_producto": "WPN-EBY-02",
-            "nombre": "Ebony & Ivory",
-            "descripcion": "Pistolas semiautomáticas personalizadas para disparar ráfagas de energía espiritual a alta velocidad.",
-            "categoria": "Arma de Fuego",
-            "precio_orbes_rojos": 35000,
-            "dano_base": 30,
-            "elemento_magico": "Espiritual",
-            "stock_disponible": 5,
-            "requiere_sangre_demonio": False
-        },
-        {
-            "id_producto": "WPN-YAM-03",
-            "nombre": "Yamato",
-            "descripcion": "Katana legendaria capaz de cortar a través del propio tejido del espacio-tiempo. Propiedad de Vergil.",
+            "descripcion": "Espada demoniaca creada por el caballero oscuro legendario Sparda, con la capacidad de despertar el poder demoniaco latente.",
             "categoria": "Cuerpo a Cuerpo",
             "precio_orbes_rojos": 99999,
-            "dano_base": 95,
-            "elemento_magico": "Oscuridad / Espacio",
-            "stock_disponible": 0, # Agotado
-            "requiere_sangre_demonio": True
-        }
+            "requiere_poderes_demonio": True
+            "stock_disponible": 0,
+        },
+        {
+            "id_producto": "WPN-EYI-02",
+            "nombre": "Ebony & Ivory",
+            "descripcion": "Pistolas semiautomáticas personalizadas para disparar ráfagas de energía espiritual a alta velocidad, creadas por la Armera legendaria Nell Goldstein",
+            "categoria": "Arma de Fuego",
+            "precio_orbes_rojos": 99999,
+            "requiere_poderes_demonio": False
+            "stock_disponible": 0,
+        },
+        {
+            "id_producto": "WPN-ALA-03",
+            "nombre": "Alastor",
+            "descripcion": "Espada demoniaca que contiene la voluntad del demonio con el que comparte nombre. Esta posee poderes electricos y le otorga a su portador la capacidad de volar.",
+            "categoria": "Cuerpo a Cuerpo",
+            "precio_orbes_rojos": 50000,
+            "requiere_poderes_demonio": True
+            "stock_disponible": 1,
+        },
+        {
+            "id_producto": "WPN-COA-04",
+            "nombre": "Coyote-A",
+            "descripcion": "Escopeta recortada de dos cañones con gran potencia de fuego.",
+            "categoria": "Arma de Fuego",
+            "precio_orbes_rojos": 35000,
+            "requiere_poderes_demonio": False
+            "stock_disponible": 5,
+        },
+        {
+            "id_producto": "WPN-IFR-05",
+            "nombre": "Ifrit",
+            "descripcion": "Guanteletes con poder de las llamas procedentes del mismo Infierno.",
+            "categoria": "Cuerpo a Cuerpo",
+            "precio_orbes_rojos": 50000,
+            "requiere_poderes_demonio": True
+            "stock_disponible": 1,
+        },
+        {
+            "id_producto": "WPN-LAG-06",
+            "nombre": "Lanzagranadas",
+            "descripcion": "Poderoso lanzador de granadas de gran alcance.",
+            "categoria": "Arma de Fuego",
+            "precio_orbes_rojos": 35000,
+            "requiere_poderes_demonio": True
+            "stock_disponible": 1,
+        },
+        {
+            "id_producto": "WPN-CER-07",
+            "nombre": "Cerberus",
+            "descripcion": "Nunchaku de hielo de tres cabezas el cual puede invocar pilares de este elemento.",
+            "categoria": "Cuerpo a Cuerpo",
+            "precio_orbes_rojos": 50000,
+            "requiere_poderes_demonio": True
+            "stock_disponible": 1,
+        },
     ]
 
 # 2. LÓGICA ALGORÍTMICA: Búsqueda Secuencial por Campo Clave
@@ -48,7 +78,7 @@ def buscar_arma_por_id(id_a_buscar):
     return None  # Devuelve Nada si no lo encuentra
 
 # 3. DISEÑO DE LA INTERFAZ DE USUARIO (Frontend con Streamlit)
-st.title("⚔️ Devil May Cry - Devil Arm Shop")
+st.title("⚔️ Devil May Buy ⚔️")
 st.subheader("Plataforma de armamento para Cazadores de Demonios profesionales")
 st.markdown("---")
 
@@ -68,12 +98,10 @@ if id_ingresado:
         with col1:
             st.write(f"**ID Producto (Clave):** `{resultado['id_producto']}`")
             st.write(f"**Categoría:** {resultado['categoria']}")
-            st.write(f"**Daño Base:** {resultado['dano_base']} pts")
-            st.write(f"**Elemento Mágico:** {resultado['elemento_magico']}")
         with col2:
             st.write(f"**Precio:** {resultado['precio_orbes_rojos']:,} 🔴 Orbes Rojos")
             st.write(f"**Stock en Tienda:** {resultado['stock_disponible']} unidades")
-            st.write(f"**Requiere Sangre Demonio:** {'Sí' if resultado['requiere_sangre_demonio'] else 'No'}")
+            st.write(f"**Requiere Poderes demoniacos:** {'Sí' if resultado['requiere_poderes_demonio'] else 'No'}")
         
         st.info(f"**Descripción del Artefacto:** {resultado['descripcion']}")
     else:
