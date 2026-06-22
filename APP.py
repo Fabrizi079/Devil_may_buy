@@ -55,7 +55,7 @@ if "catalogo" not in st.session_state:
             "descripcion": "Poderoso lanzador de granadas de gran alcance.",
             "categoria": "Arma de Fuego",
             "precio_orbes_rojos": 35000,
-            "stock_disponible": 1,
+            "stock_disponible": 5,
             "requiere_poderes_demonio": True
         },
         {
@@ -63,6 +63,60 @@ if "catalogo" not in st.session_state:
             "nombre": "Cerberus",
             "descripcion": "Nunchaku de hielo de tres cabezas el cual puede invocar pilares de este elemento.",
             "categoria": "Cuerpo a Cuerpo",
+            "precio_orbes_rojos": 50000,
+            "stock_disponible": 1,
+            "requiere_poderes_demonio": True
+        },
+        {
+            "id_producto": "WPN-AYR-08",
+            "nombre": "Agni y Rudra",
+            "descripcion": "Dos espadas gemelas que poseen poderes de fuego y viento respectivamente, en sus mangos se encuentran las cabezas de los demonios con los que comparten nombre",
+            "categoria": "Cuerpo a Cuerpo",
+            "precio_orbes_rojos": 50000,
+            "stock_disponible": 1,
+            "requiere_poderes_demonio": True
+        },
+        {
+            "id_producto": "WPN-NEV-09",
+            "nombre": "Nevan",
+            "descripcion": "Guitarra eléctrica que puede enviar descargas eléctricas mientras tocas notas de música, asi como invocar murcielagos eléctricos, tambien puede transformarse en una guadaña para ataques de cuerpo a cuerpo.",
+            "categoria": "Cuerpo a Cuerpo y a distancia",
+            "precio_orbes_rojos": 50000,
+            "stock_disponible": 1,
+            "requiere_poderes_demonio": True
+        },
+        {
+            "id_producto": "WPN-BEO-10",
+            "nombre": "Beowulf",
+            "descripcion": "Guanteletes y espinilleras de luz capaces de propinar poderosos golpes y patadas.",
+            "categoria": "Cuerpo a Cuerpo",
+            "precio_orbes_rojos": 50000,
+            "stock_disponible": 1,
+            "requiere_poderes_demonio": True
+        },
+        {
+            "id_producto": "WPN-GIL-11",
+            "nombre": "Gilgamesh",
+            "descripcion": "Guanteletes y botas con la capacidad de aumentar la fuerza de los ataques gracias a los motores integrados en los mismos.",
+            "categoria": "Cuerpo a Cuerpo",
+            "precio_orbes_rojos": 50000,
+            "stock_disponible": 1,
+            "requiere_poderes_demonio": True
+        },
+        {
+            "id_producto": "WPN-GIL-11",
+            "nombre": "Gilgamesh",
+            "descripcion": "Guanteletes y botas con la capacidad de aumentar la fuerza de los ataques gracias a los motores integrados en los mismos.",
+            "categoria": "Cuerpo a Cuerpo",
+            "precio_orbes_rojos": 50000,
+            "stock_disponible": 1,
+            "requiere_poderes_demonio": True
+        },
+        {
+            "id_producto": "WPN-LUC-12",
+            "nombre": "Lucifer",
+            "descripcion": "Mochila capaz de generar una innumerable cantidad de espadas espectrales capaces de flotar alededor del usuario.",
+            "categoria": "A distancia",
             "precio_orbes_rojos": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True
