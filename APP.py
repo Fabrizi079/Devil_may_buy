@@ -246,6 +246,6 @@ for arma in st.session_state.catalogo:
         col1, col2 = st.columns([3, 1])
         with col1:
             st.write(arma["descripcion"])
-            st.write(f"**Precio:** ${arma['precio_usd']:,}.00 USD | **Stock:** {arma['stock_disponible']} unidades")
+            st.write(f"**Precio:** ${arma['precio_USD']:,}.00 USD | **Stock:** {arma['stock_disponible']} unidades")
         with col2:
             st.image(arma["imagen"], use_container_width=True)
