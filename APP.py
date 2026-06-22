@@ -129,7 +129,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Lanzamisiles",
             "descripcion": "Lanzamisiles de gran potencia pero baja velocidad capas de destruir demonios de un disparo.",
             "categoria": "Arma de fuego",
-            "precio_orbes_rojos": 35000,
+            "precio_USD": 35000,
             "stock_disponible": 5,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/a/ad/Missile_Launcher.jpg/revision/latest?cb=20150629110937",
@@ -225,7 +225,7 @@ if id_ingresado:
         with col_datos:
             st.write(f"**ID Producto (Clave):** `{resultado['id_producto']}`")
             st.write(f"**Categoría:** {resultado['categoria']}")
-            st.write(f"**Precio:** ${resultado['precio_usd']:,}.00 USD 💵")
+            st.write(f"**Precio:** ${resultado['precio_USD']:,}.00 USD 💵")
             st.write(f"**Stock en Tienda:** {resultado['stock_disponible']} unidades")
             st.write(f"**Requiere Poderes demoniacos:** {'Sí' if resultado['requiere_poderes_demonio'] else 'No'}")
         with col_imagen:
