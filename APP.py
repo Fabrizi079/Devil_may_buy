@@ -4,7 +4,7 @@ import streamlit as st
 # Cada elemento en la lista actúa como un "Registro" con sus campos correspondientes.
 if "catalogo" not in st.session_state:
     st.session_state.catalogo = [
-        ,{
+        {
             "id_producto": "WPN-REB-01",
             "nombre": "Rebellion",
             "descripcion": "Espada demoniaca creada por el caballero oscuro legendario Sparda, con la capacidad de despertar el poder demoniaco latente.",
@@ -192,7 +192,7 @@ if "catalogo" not in st.session_state:
             "precio_orbes_rojos": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
-            "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/e/ee/DMC5_King_Cerberus.png/revision/latest/scale-to-width-down/1000?cb=20181028235925",
+            "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/e/ee/DMC5_King_Cerberus.png/revision/latest/scale-to-width-down/1000?cb=20181028235925"
         }
     ]
 
