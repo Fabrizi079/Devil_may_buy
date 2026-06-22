@@ -9,7 +9,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Rebellion",
             "descripcion": "Espada demoniaca creada por el caballero oscuro legendario Sparda, con la capacidad de despertar el poder demoniaco latente.",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 99999,
+            "precio_USD": 99999,
             "stock_disponible": 0,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/9/91/Rebellion_DMC5.png/revision/latest/scale-to-width-down/1000?cb=20181028035650",
@@ -19,7 +19,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Ebony & Ivory",
             "descripcion": "Pistolas semiautomáticas personalizadas para disparar ráfagas de energía espiritual a alta velocidad, creadas por la Armera legendaria Nell Goldstein",
             "categoria": "Arma de Fuego",
-            "precio_orbes_rojos": 99999,
+            "precio_USD": 99999,
             "stock_disponible": 0,
             "requiere_poderes_demonio": False,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/0/08/DMC5_Ebony_%26_Ivory.png/revision/latest/scale-to-width-down/1000?cb=20190326004640",
@@ -29,7 +29,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Alastor",
             "descripcion": "Espada demoniaca que contiene la voluntad del demonio con el que comparte nombre. Esta posee poderes electricos y le otorga a su portador la capacidad de volar.",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/b/b9/Alastor_%28DA%29_DMC1.png/revision/latest?cb=20150418055040",
@@ -39,7 +39,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Coyote-A",
             "descripcion": "Escopeta recortada de dos cañones con gran potencia de fuego.",
             "categoria": "Arma de Fuego",
-            "precio_orbes_rojos": 35000,
+            "precio_USD": 35000,
             "stock_disponible": 5,
             "requiere_poderes_demonio": False,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/e/ef/DMC5_Coyote-A.png/revision/latest/scale-to-width-down/1000?cb=20181105001547",
@@ -49,7 +49,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Ifrit",
             "descripcion": "Guanteletes con poder de las llamas procedentes del mismo Infierno.",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/3/3e/Ifrit_DMC.png/revision/latest?cb=20260517113859",
@@ -59,7 +59,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Lanzagranadas",
             "descripcion": "Poderoso lanzador de granadas de gran alcance.",
             "categoria": "Arma de Fuego",
-            "precio_orbes_rojos": 35000,
+            "precio_USD": 35000,
             "stock_disponible": 5,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/7/70/DMC1_-_Grenade_Gun.png/revision/latest?cb=20150629100757",
@@ -69,7 +69,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Cerberus",
             "descripcion": "Nunchaku de hielo de tres cabezas el cual puede invocar pilares de este elemento.",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/d/d9/DMC3_Cerberus.png/revision/latest/scale-to-width-down/1000?cb=20181111191829",
@@ -79,7 +79,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Agni y Rudra",
             "descripcion": "Dos espadas gemelas que poseen poderes de fuego y viento respectivamente, en sus mangos se encuentran las cabezas de los demonios con los que comparten nombre",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/b/be/Agni_%26_Rudra.png/revision/latest/scale-to-width-down/1000?cb=20190215213557",
@@ -89,7 +89,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Nevan",
             "descripcion": "Guitarra eléctrica que puede enviar descargas eléctricas mientras tocas notas de música, asi como invocar murcielagos eléctricos, tambien puede transformarse en una guadaña para ataques de cuerpo a cuerpo.",
             "categoria": "Cuerpo a Cuerpo y a distancia",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/a/a3/DA_Nevan.gif/revision/latest?cb=20130220035201",
@@ -99,7 +99,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Beowulf",
             "descripcion": "Guanteletes y espinilleras de luz capaces de propinar poderosos golpes y patadas.",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/9/9c/Beowulf_DMC5.png/revision/latest?cb=20201215201528",
@@ -109,7 +109,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Gilgamesh",
             "descripcion": "Guanteletes y botas con la capacidad de aumentar la fuerza de los ataques gracias a los motores integrados en los mismos.",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/e/e0/Gilgamesh_DMC4.jpg/revision/latest?cb=20080228182948",
@@ -119,7 +119,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Lucifer",
             "descripcion": "Mochila capaz de generar una innumerable cantidad de espadas espectrales capaces de flotar alededor del usuario.",
             "categoria": "A distancia",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/a/aa/Lucifer_DMC4.png/revision/latest?cb=20120419203920",
@@ -139,7 +139,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Pandora",
             "descripcion": "Maletin que puede cambiar a 666 formas difeerentes, cada una con sus propios ataques.",
             "categoria": "A distancia",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/8/83/Pandora_DMC4.png/revision/latest?cb=20181106170129",
@@ -149,7 +149,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Artemis",
             "descripcion": "Arma demoniaca con la capacidad de disparar flechas imbuidas de energia demoniaca.",
             "categoria": "A distancia",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/5/5d/Artemis.gif/revision/latest?cb=20130220052115",
@@ -159,7 +159,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Balrog",
             "descripcion": "Set de guantes, botas y hombreras que poseen el poder sellado del rey del fuego infernal.",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/1/1f/DMC5_Balrog.png/revision/latest/scale-to-width-down/1000?cb=20181028111101",
@@ -169,7 +169,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Cavaliere",
             "descripcion": "Motocicleta demoniaca con la capacidad de ssepararse y convertirse en dos motosierras.",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 90000,
+            "precio_USD": 90000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/b/b3/DMC5_Cavaliere.png/revision/latest/scale-to-width-down/1000?cb=20181028111659",
@@ -179,7 +179,7 @@ if "catalogo" not in st.session_state:
             "nombre": "Dr. Faust",
             "descripcion": "Sombrero magico que otorga la capacidad de disparar orbes rojos",
             "categoria": "A distancia",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/4/4c/DMC5_Dr._Faust.png/revision/latest/scale-to-width-down/1000?cb=20181022132806",
@@ -189,7 +189,7 @@ if "catalogo" not in st.session_state:
             "nombre": "King Cerberus",
             "descripcion": "Nunchaku de hielo de 3 cabezas similar al cerberus original, pero con la capacidad de convertirse en un Baston de 3 segmentos con poderes electricos y en un baston completo con poderes de fuego",
             "categoria": "Cuerpo a Cuerpo",
-            "precio_orbes_rojos": 50000,
+            "precio_USD": 50000,
             "stock_disponible": 1,
             "requiere_poderes_demonio": True,
             "imagen": "https://static.wikia.nocookie.net/devilmaycry/images/e/ee/DMC5_King_Cerberus.png/revision/latest/scale-to-width-down/1000?cb=20181028235925"
@@ -225,7 +225,7 @@ if id_ingresado:
         with col_datos:
             st.write(f"**ID Producto (Clave):** `{resultado['id_producto']}`")
             st.write(f"**Categoría:** {resultado['categoria']}")
-            st.write(f"**Precio:** {resultado['precio_orbes_rojos']:,} 🔴 Orbes Rojos")
+            st.write(f"**Precio:** ${resultado['precio_usd']:,}.00 USD 💵")
             st.write(f"**Stock en Tienda:** {resultado['stock_disponible']} unidades")
             st.write(f"**Requiere Poderes demoniacos:** {'Sí' if resultado['requiere_poderes_demonio'] else 'No'}")
         with col_imagen:
@@ -246,6 +246,6 @@ for arma in st.session_state.catalogo:
         col1, col2 = st.columns([3, 1])
         with col1:
             st.write(arma["descripcion"])
-            st.write(f"**Precio:** {arma['precio_orbes_rojos']:,} Orbes | **Stock:** {arma['stock_disponible']} unidades")
+            st.write(f"**Precio:** ${arma['precio_usd']:,}.00 USD | **Stock:** {arma['stock_disponible']} unidades")
         with col2:
             st.image(arma["imagen"], use_container_width=True)
