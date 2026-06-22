@@ -4,7 +4,7 @@ import streamlit as st
 # Cada elemento en la lista actúa como un "Registro" con sus campos correspondientes.
 if "catalogo" not in st.session_state:
     st.session_state.catalogo = [
-        {
+        ,{
             "id_producto": "WPN-REB-01",
             "nombre": "Rebellion",
             "descripcion": "Espada demoniaca creada por el caballero oscuro legendario Sparda, con la capacidad de despertar el poder demoniaco latente.",
